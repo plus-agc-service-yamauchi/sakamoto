@@ -1,0 +1,492 @@
+/*  */
+body {
+	background-color:#fcfbf8;
+	color:#371C00;
+	font-family:"Verdana, Geneva, sans-serif,ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro";
+	font-size:16px;
+}
+
+@media screen and (min-width: 769px) {
+/* PC用のスタイル記述 */
+#wrapper {
+	width:940px;
+	margin:0 auto;
+}
+#header {
+	width:940px;
+	/*height:200px;*/
+	margin-top:10px;
+	margin-bottom:20px;
+	padding-top:20px;
+	float:left;
+}
+
+#header_logo{
+	 height:83px;
+	 display:block;
+	 float:left;
+}
+.logo{
+	width:auto;
+	display:block;
+}
+
+.header_text{
+	 font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	 font-size:14px;
+	 padding:30px 10px;
+	 height:83px;
+	 display:block;
+	 float:left;
+	 line-height:1.5em;
+}
+
+
+#nav_ph {
+	display:none;
+}
+#nav {
+	width:940px;
+	height:25px;
+	float:left;
+	margin-top:10px;
+}
+#header a:hover{
+	color:#DAA520;
+}
+#header a:{
+	color:#371C00;
+}
+
+#nav ul {
+	width:940px;
+	height:30px;
+	background:#371C00;
+}
+.nav_li {
+	width:134px;
+	float: left;
+	height:30px;
+	text-align:center;
+}
+.nav_li:hover {
+	background:#937E48;
+}
+#contents {
+	width:940px;
+	float:left;
+}
+#main_ph {/*スライドph*/
+display:none;
+}
+#main {/*スライド*/
+	width:100%;
+	position:relative;
+	margin-bottom:10px;
+	float:left;
+	text-align:center;
+}
+bxslider_ph{
+	width:100%;
+	margin:0;
+}
+.bxslider{
+	width:100%;
+	margin:0;
+}
+.content_all{
+	width:100%;
+	float:left;
+	margin-bottom:20px;
+}
+.content_left {
+	width:460px;
+	float:left;
+	margin-bottom:20px;
+	margin-right:10px;
+	display:block;
+}
+
+.content_right {
+	width:460px;
+	float:right;
+	margin-bottom:20px;
+	margin-left:10px;
+	display:block;
+}
+
+.content_right_pc {
+	width:460px;
+	float:right;
+	margin-bottom:20px;
+	margin-left:10px;
+}
+
+.menu_box_ph{
+	display:none;
+}
+
+#footer{
+	width:100%;
+	background-color:#E3DBC6;
+	}
+#infooter {
+	background-color:#E3DBC6;
+	width:940px;
+	margin:0 auto;
+	padding-top:30px;
+}
+
+#infooter_ph{
+	display:none;
+}
+
+.f_box{
+	width:20%;
+	margin-bottom:20px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	float:left;
+}
+
+
+/*RSS*/
+.rss_date_box{
+	height:4em;
+	margin-right:1em;
+	vertical-align:top;
+	float:left;
+	display:block;
+	line-height:1.5em;
+}
+.rss_title_box{
+	height:1em;
+	width:26em;
+	float:left;
+	display:block;
+	line-height:1.5em;
+}
+
+.rss_title{
+	width:26em;
+	float:left;
+	display:block;
+	line-height:1.5em;
+}
+
+.rss_text{
+	height:3em;
+	width:26em;
+	float:left;
+	display:block;
+	line-height:1.5em;
+	overflow:hidden;
+	white-space:normal;
+
+	margin-top:2px;
+	
+	font-weight:normal;
+}
+.rss_text img{
+	display:none;
+}
+
+.rss_title_box a{
+	text-decoration:underline;
+	color: #00669B;
+}
+
+/*ヒストリー*/
+.history_ayumi{
+	display:block;
+	float:left;
+	margin-right:5px;
+}
+
+.reason{}
+
+.reason_ph{
+	display:none;
+}
+
+/*コンタクト*/
+.txt_c{}
+
+.txt_c_ph{
+	display:none;
+}
+
+.contact_ta{
+	 width:750px;
+	 height:150px;
+}
+
+.contact_ta_ph{
+	display:none;
+}
+
+#top_menu_box_ph{
+	display:none;
+}
+
+#top_menu_box{
+	width:100%;
+	height:auto;
+	display:block;
+	float:left;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.menu_img_txt{/*品名*/
+	font-weight:bold;
+	font-size:17px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	margin-bottom:7px;
+	margin-top:5px;
+	border-bottom:1px #FF3300 solid;
+	display:block;
+}
+.border_bottom{
+}
+
+.voice_s_01{/*明石総本店*/
+	width:6em;
+	background:#BE4029;
+	text-align:center;
+	font-size:13px;
+	color:#ffffff;
+	float:left;
+	display:block;
+}
+.voice_text_box{
+	text-align:center;
+	width:100%;
+	font-weight:bold;
+	margin:30px 0;
+}
+}
+
+@media screen and (max-width: 768px) {
+/* スマートフォン用のスタイル記述 */
+
+.voice_text_box{
+	text-align:left;
+	width:100%;
+	font-weight:bold;
+	margin:30px 0;
+}
+
+.responsive_img{
+	max-width:100%;
+	height:auto;
+}
+
+#wrapper {
+	width:100%;
+	overflow: hidden;
+}
+#header {
+	width:100%;
+	margin-bottom:10px;
+	float:left;
+}
+
+#header_logo{
+	width:60%;
+	 display:block;
+	 clear:left;
+	 margin:10px;
+}
+
+
+.header_text{
+	display:none;
+}
+
+
+#nav {
+	display:none;
+}
+
+#nav_ph {
+	width:100%;
+	float:left;
+	display:block;
+	margin-top:10px;
+}
+#nav_ph ul {
+	width:100%;
+	float:left;
+	background:#371C00;
+}
+#nav_ph ul li {	
+	width:100%;
+	height:35px;
+	padding-left:1em;
+	float: left;
+	border-bottom:solid 1px #fcfbf8;
+}
+
+#contents {
+	width:100%;
+	float:left;
+	margin-bottom:10px;
+	padding:10px;
+}
+#main_ph {/*スマホ用*/
+	width:100%;
+	margin-bottom:10px;
+	margin:0 5px;
+	float:left;
+	display:block;
+	float:left;
+}
+#main {
+	display:none;
+}
+.bxslider_ph{
+	width:100%;
+	margin:0;
+}
+.bxslider{
+	width:100%;
+	margin:0;
+}
+.content_all{
+	width:100%;
+	float:left;
+	padding:10px;
+	margin-bottom:0px;
+}
+.content_left {
+	width:100%;
+	float:left;
+	padding:10px;
+	margin-bottom:10px;
+}
+
+.content_right {
+	width:100%;
+	float:left;
+	padding:10px;
+	margin-bottom:0px;
+}
+
+.content_right_pc {
+	display:none;
+}
+
+.menu_box_ph{
+	width:100%;
+	display:block;
+	float:left;
+	text-align:center;
+}
+
+#footer {
+	background-color:#E3DBC6;
+	width:100%;
+	float:left;
+}
+
+#infooter{
+	display:none;
+}
+
+#infooter_ph{
+	background-color:#E3DBC6;
+	width:100%;
+	padding-left:10px;
+	padding-top:10px;
+}
+/*RSS*/
+.rss_date_box{
+	height:1em;
+	margin-right:1em;
+	margin-bottom:5px;
+	vertical-align:top;
+	float:left;
+	display:block;
+	line-height:1.5em;
+}
+.rss_title_box{
+	float:left;
+	display:block;
+	margin:0;
+	line-height:1.5em;
+}
+
+.rss_title{
+	float:left;
+	display:block;
+	width:26em;
+	text-overflow:ellipsis !important;
+	overflow:hidden !important;
+	white-space:nowrap !important;
+	clear:left;
+}
+
+.rss_text{
+	float:left;
+	width:26em;
+	height:3em;
+	display:block;
+	text-overflow:ellipsis !important;
+	overflow:hidden !important;
+	white-space:nowrap !important;
+}
+
+.rss_title_box a{
+	text-decoration:underline;
+	color: #00669B;
+}
+
+/*ヒストリー*/
+.history_ayumi{
+	display:none;
+}
+
+.reason{
+	display:none;}
+
+.reason_ph{}
+
+/*コンタクト*/
+.txt_c{
+	display:none;
+}
+
+.txt_c_ph{
+	text-align:center;
+	}
+
+.contact_ta{
+	display:none;
+}
+
+.contact_ta_ph{
+	 width:100%;
+	 height:150px;
+}
+
+#top_menu_box{
+	display:none;
+}
+
+#top_menu_box_ph{
+	width:472px;
+	margin:0 auto;
+}
+
+.menu_img_txt{/*品名*/
+}
+.border_bottom{
+	font-weight:bold;
+	font-size:17px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	margin-bottom:7px;
+	margin-top:5px;
+	border-bottom:1px #FF3300 solid;
+}
+
+}
