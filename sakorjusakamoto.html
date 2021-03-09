@@ -1,17 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
-  <head>
+
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="Content-Style-Type" content="text/css;" />
     <meta http-equiv="Content-Script-Type" content="text/javascript;" />
-    <meta
-      name="keywords"
-      content="青森,五所川原,高齢者向け住宅,老人ホーム,サコージュさかもと"
-    />
-    <meta
-      name="description"
-      content="青森県五所川原市 サコージュさかもと。様々な要望・生活スタイルに柔軟に対応できるサービス付き高齢者向け住宅。"
-    />
+    <meta name="keywords" content="青森,五所川原,高齢者向け住宅,老人ホーム,サコージュさかもと" />
+    <meta name="description" content="青森県五所川原市 サコージュさかもと。様々な要望・生活スタイルに柔軟に対応できるサービス付き高齢者向け住宅。" />
     <title>サコージュさかもと</title>
     <!--[if lte IE 9]>
       <script src="js/html5.js"></script>
@@ -23,25 +18,22 @@
 
     <script type="text/javascript" src="js/footerFixed.js"></script>
     <script src="js/jquery-1.7.2.min.js"></script>
-    <script
-      type="text/javascript"
-      src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"
-    ></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script src="js/jquery.bxslider.min.js"></script>
 
     <!--スライド-->
     <script type="text/javascript">
-      // <![CDATA[
-      $(document).ready(function() {
-        $(".bxslider").bxSlider({
-          auto: true,
-          speed: 1500,
-          pause: 3000,
-          control: true,
-          pager: false
+        // <![CDATA[
+        $(document).ready(function() {
+            $(".bxslider").bxSlider({
+                auto: true,
+                speed: 1500,
+                pause: 3000,
+                control: true,
+                pager: false
+            });
         });
-      });
-      // ]]>
+        // ]]>
     </script>
 
     <!--マップ-->
@@ -72,197 +64,154 @@
 
     <!--アナリティクス-->
     <script>
-      (function(i, s, o, g, r, a, m) {
-        i["GoogleAnalyticsObject"] = r;
-        (i[r] =
-          i[r] ||
-          function() {
-            (i[r].q = i[r].q || []).push(arguments);
-          }),
-          (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-      })(
-        window,
-        document,
-        "script",
-        "//www.google-analytics.com/analytics.js",
-        "ga"
-      );
+        (function(i, s, o, g, r, a, m) {
+            i["GoogleAnalyticsObject"] = r;
+            (i[r] =
+                i[r] ||
+                function() {
+                    (i[r].q = i[r].q || []).push(arguments);
+                }),
+            (i[r].l = 1 * new Date());
+            (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m);
+        })(
+            window,
+            document,
+            "script",
+            "//www.google-analytics.com/analytics.js",
+            "ga"
+        );
 
-      ga("create", "UA-58308152-5", "auto");
-      ga("send", "pageview");
+        ga("create", "UA-58308152-5", "auto");
+        ga("send", "pageview");
     </script>
-  </head>
-  <body onload="initialize()">
+</head>
+
+<body onload="initialize()">
     <!-- ヘッダー -->
     <div class="wrap">
-      <header id="head2">
-        <div id="main">
-          <ul>
-            <li>
-              <img
-                src="images/sakorju-s-page.png"
-                width="960"
-                height="265"
-                alt="さかもとデイサービスセンター"
-              />
-            </li>
-          </ul>
+        <header id="head2">
+            <div id="main">
+                <ul>
+                    <li>
+                        <img src="images/sakorju-s-page.png" width="960" height="265" alt="さかもとデイサービスセンター" />
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- ナビゲーション -->
+        <div class="wrap-nav">
+            <nav id="nav2">
+                <ul>
+                    <li>
+                        <a href="sakamotodayservice.html"><img src="images/nav1_01.png" width="235" height="40" alt="さかもとデイサービスセンター" /></a>
+                    </li>
+                    <li>
+                        <a href="sakamotosekkotuin.html"><img src="images/nav1_02.png" width="235" height="40" alt="さかもと接骨院" /></a>
+                    </li>
+                    <li>
+                        <a href="sakorjusakamoto.html"><img src="images/nav1_03.png" width="235" height="40" alt="サコージュさかもと" /></a>
+                    </li>
+                    <li>
+                        <a href="sakamotohiroba.html"><img src="images/nav1_04.png" width="235" height="40" alt="デイサービスさかもと広場" /></a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-      </header>
-      <!-- ナビゲーション -->
-      <div class="wrap-nav">
-        <nav id="nav2">
-          <ul>
-            <li>
-              <a href="sakamotodayservice.html"
-                ><img
-                  src="images/nav1_01.png"
-                  width="235"
-                  height="40"
-                  alt="さかもとデイサービスセンター"
-              /></a>
-            </li>
-            <li>
-              <a href="sakamotosekkotuin.html"
-                ><img
-                  src="images/nav1_02.png"
-                  width="235"
-                  height="40"
-                  alt="さかもと接骨院"
-              /></a>
-            </li>
-            <li>
-              <a href="sakorjusakamoto.html"
-                ><img
-                  src="images/nav1_03.png"
-                  width="235"
-                  height="40"
-                  alt="サコージュさかもと"
-              /></a>
-            </li>
-            <li>
-              <a href="sakamotohiroba.html"
-                ><img
-                  src="images/nav1_04.png"
-                  width="235"
-                  height="40"
-                  alt="デイサービスさかもと広場"
-              /></a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <!-- wrap-nav -->
-      <div class="clear"></div>
+        <!-- wrap-nav -->
+        <div class="clear"></div>
     </div>
     <!-- wrap -->
     <div id="nav-line">
-      <div class="wrap-nav">
-        <div id="nav-line-pink"></div>
-        <div id="nav-line-blue"></div>
-        <div id="nav-line-green"></div>
-        <div id="nav-line-orange"></div>
-      </div>
-      <!-- wrap-nav -->
+        <div class="wrap-nav">
+            <div id="nav-line-pink"></div>
+            <div id="nav-line-blue"></div>
+            <div id="nav-line-green"></div>
+            <div id="nav-line-orange"></div>
+        </div>
+        <!-- wrap-nav -->
     </div>
     <!--nav-line-->
     <!--メイン-->
     <div class="wrap">
-      <div id="left">
-        <div class="page-sub">
-          様々な要望・生活スタイルに柔軟に対応できるサービス付き高齢者向け住宅。<br />
-          高齢者が安心して生活できる住まいをご提供します！
-        </div>
-        <!-- お一人おひとりのご要望に合わせて、日常生活をしっかりサポート -->
-        <div class="page-left-left">
-          <img
-            src="images/sakorju-s01.jpg"
-            alt="お一人おひとりのご要望に合わせて、日常生活をしっかりサポート"
-          />
-        </div>
-        <!--page-left-left-->
-        <div class="page-left-right">
-          <div class="text-green">
-            お一人おひとりのご要望に合わせて、<br />日常生活をしっかりサポート
-          </div>
-          <div class="page-text">
-            <div class="text-bold">
-              要望や、状況の変化に対して、ご家族・介護支援専門員と連携しながらお世話させて頂きます。
+        <div id="left">
+            <div class="page-sub">
+                様々な要望・生活スタイルに柔軟に対応できるサービス付き高齢者向け住宅。<br /> 高齢者が安心して生活できる住まいをご提供します！
             </div>
-          </div>
-        </div>
-        <!--page-left-right-->
-        <div class="clear"></div>
-        <!-- お一人おひとりのご要望に合わせて、日常生活をしっかりサポート -->
+            <!-- お一人おひとりのご要望に合わせて、日常生活をしっかりサポート -->
+            <div class="page-left-left">
+                <img src="images/sakorju-s01.jpg" alt="お一人おひとりのご要望に合わせて、日常生活をしっかりサポート" />
+            </div>
+            <!--page-left-left-->
+            <div class="page-left-right">
+                <div class="text-green">
+                    お一人おひとりのご要望に合わせて、<br />日常生活をしっかりサポート
+                </div>
+                <div class="page-text">
+                    <div class="text-bold">
+                        要望や、状況の変化に対して、ご家族・介護支援専門員と連携しながらお世話させて頂きます。
+                    </div>
+                </div>
+            </div>
+            <!--page-left-right-->
+            <div class="clear"></div>
+            <!-- お一人おひとりのご要望に合わせて、日常生活をしっかりサポート -->
 
-        <!-- バランスの取れた食事で毎日健康に！ -->
-        <div class="page-left-left">
-          <img
-            src="images/sakorju-s02.jpg"
-            alt="バランスの取れた食事で毎日健康に！"
-          />
-        </div>
-        <!--page-left-left-->
-        <div class="page-left-right">
-          <div class="text-orange">バランスの取れた食事で毎日健康に！</div>
-          <div class="page-text">
-            <!-- 株式会社栄研との契約により、-->カロリーや栄養バランスに配慮し、バラエティーに富んだ献立を日替わりで提供します。
-          </div>
-        </div>
-        <!--page-left-right-->
-        <div class="clear"></div>
-        <!-- バランスの取れた食事で毎日健康に！ -->
+            <!-- バランスの取れた食事で毎日健康に！ -->
+            <div class="page-left-left">
+                <img src="images/sakorju-s02.jpg" alt="バランスの取れた食事で毎日健康に！" />
+            </div>
+            <!--page-left-left-->
+            <div class="page-left-right">
+                <div class="text-orange">バランスの取れた食事で毎日健康に！</div>
+                <div class="page-text">
+                    <!-- 株式会社栄研との契約により、-->カロリーや栄養バランスに配慮し、バラエティーに富んだ献立を日替わりで提供します。
+                </div>
+            </div>
+            <!--page-left-right-->
+            <div class="clear"></div>
+            <!-- バランスの取れた食事で毎日健康に！ -->
 
-        <!-- ケア専門家による、安否確認・生活相談サービス -->
-        <div class="page-left-left">
-          <img
-            src="images/sakorju-s03.jpg"
-            alt="ケア専門家による、安否確認・生活相談サービス"
-          />
-        </div>
-        <!--page-left-left-->
-        <div class="page-left-right">
-          <div class="text-blue">
-            ケア専門家による、<br />安否確認・生活相談サービス
-          </div>
-          <div class="page-text">
-            日中3回、夜間3回、お部屋を訪問して安否確認及び相談に対応します。
-          </div>
-        </div>
-        <!--page-left-right-->
-        <div class="clear"></div>
-        <!-- ケア専門家による、安否確認・生活相談サービス -->
+            <!-- ケア専門家による、安否確認・生活相談サービス -->
+            <div class="page-left-left">
+                <img src="images/sakorju-s03.jpg" alt="ケア専門家による、安否確認・生活相談サービス" />
+            </div>
+            <!--page-left-left-->
+            <div class="page-left-right">
+                <div class="text-blue">
+                    ケア専門家による、<br />安否確認・生活相談サービス
+                </div>
+                <div class="page-text">
+                    日中3回、夜間3回、お部屋を訪問して安否確認及び相談に対応します。
+                </div>
+            </div>
+            <!--page-left-right-->
+            <div class="clear"></div>
+            <!-- ケア専門家による、安否確認・生活相談サービス -->
 
-        <!-- 高齢者の安定住居に関する法律(高齢者住まい法)に基づいた住居です。 -->
-        <div class="page-left-left">
-          <img
-            src="images/sakorju-s04.jpg"
-            alt="高齢者の安定住居に関する法律(高齢者住まい法)に基づいた住居です。"
-          />
-        </div>
-        <!--page-left-left-->
-        <div class="page-left-right">
-          <div class="text-pink">
-            高齢者の安定住居に関する法律(高齢者住まい法)に基づいた住居です。
-          </div>
-          <div class="page-text">
-            基準の広さ、各室トイレ、洗面、収納を完備し、プライバシーに考慮しながらも安心して暮らせる居室となっています。
-          </div>
-        </div>
-        <!--page-left-right-->
-        <div class="clear"></div>
-        <!-- 高齢者の安定住居に関する法律(高齢者住まい法)に基づいた住居です。 -->
+            <!-- 高齢者の安定住居に関する法律(高齢者住まい法)に基づいた住居です。 -->
+            <div class="page-left-left">
+                <img src="images/sakorju-s04.jpg" alt="高齢者の安定住居に関する法律(高齢者住まい法)に基づいた住居です。" />
+            </div>
+            <!--page-left-left-->
+            <div class="page-left-right">
+                <div class="text-pink">
+                    高齢者の安定住居に関する法律(高齢者住まい法)に基づいた住居です。
+                </div>
+                <div class="page-text">
+                    基準の広さ、各室トイレ、洗面、収納を完備し、プライバシーに考慮しながらも安心して暮らせる居室となっています。
+                </div>
+            </div>
+            <!--page-left-right-->
+            <div class="clear"></div>
+            <!-- 高齢者の安定住居に関する法律(高齢者住まい法)に基づいた住居です。 -->
 
-        <div class="m10">&nbsp;</div>
-        <!--全室に設置済みの設備-->
-        <h1 class="title-green">
-          <span class="title-maru-green">●</span>全室に設置済みの設備<span
-            class="title-maru-green"
-            >●</span
+            <div class="m10">&nbsp;</div>
+            <!--全室に設置済みの設備-->
+            <h1 class="title-green">
+                <span class="title-maru-green">●</span>全室に設置済みの設備<span class="title-maru-green">●</span
           >
         </h1>
         <div class="list3-1">
@@ -294,9 +243,7 @@
         <div class="m10"></div>
         <!--無料のもの-->
         <h1 class="title-green">
-          <span class="title-maru-green">●</span>無料のもの<span
-            class="title-maru-green"
-            >●</span
+          <span class="title-maru-green">●</span>無料のもの<span class="title-maru-green">●</span
           >
         </h1>
         <div class="list3-1">
@@ -322,9 +269,7 @@
         <div class="m10"></div>
         <!--公益費に含まれるもの-->
         <h1 class="title-green">
-          <span class="title-maru-green">●</span>公益費に含まれるもの<span
-            class="title-maru-green"
-            >●</span
+          <span class="title-maru-green">●</span>公益費に含まれるもの<span class="title-maru-green">●</span
           >
         </h1>
         <div class="list3-1">
@@ -361,9 +306,7 @@
         <div class="m10">&nbsp;</div>
         <!--施設案内-->
         <h1 class="title-green">
-          <span class="title-maru-green">●</span>施設案内<span
-            class="title-maru-green"
-            >●</span
+          <span class="title-maru-green">●</span>施設案内<span class="title-maru-green">●</span
           >
         </h1>
         <img src="images/sakorju-s05.jpg" alt="施設案内" />
@@ -372,9 +315,7 @@
         <!--アクセス-->
         <div class="m10">&nbsp;</div>
         <h1 class="title-green">
-          <span class="title-maru-green">●</span> アクセス<span
-            class="title-maru-green"
-            >●</span
+          <span class="title-maru-green">●</span> アクセス<span class="title-maru-green">●</span
           >
         </h1>
         <div id="page-access">
@@ -408,7 +349,7 @@
       <!--left-->
       <div id="right">
         <article class="banner">
-          <a href="pdf/2018サコージュさかもとパンフ.pdf" target="_blank"
+          <a href="pdf/2021サコージュさかもとパンフ.pdf" target="_blank"
             ><img src="images/sakorju-s-pdf.gif" alt="パンフレットダウンロード"
           /></a>
         </article>
